@@ -1,0 +1,84 @@
+body{
+    padding:0;
+    margin: 0;
+}
+
+.nav{
+    width:100%;
+    top:0;
+    background-color: lavender;
+    position: sticky;
+    z-index: 100;
+    border-bottom: 1px white solid;
+}
+
+.nav ul li{
+    text-align: center;
+    list-style-type: none;
+    width: 20%;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    font-size: 18pt;
+}
+
+.nav ul li:hover{
+    background-color: purple;
+}
+
+.nav ul li:hover a{
+    color: black;
+}
+
+.nav ul li a{
+    text-decoration: none;
+    color:purple;
+}
+
+.nav ul{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+}
+
+.subnav{
+    display: none;
+    background-color: lavender;
+    top:100%;
+    position: absolute;
+    width: auto;
+    width: 100%;
+    z-index: 1;
+}
+
+.subnav ul{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+}
+
+ul li:hover .subnav{
+    display: block;
+}
+
+ul li{
+    position: relative;
+}
+
+.nav .subnav ul li a{
+    color:black;
+    transition: 0.2s;
+}
+
+.subnav ul li:hover{
+    background-color: purple;
+}
+
+.subnav ul li{
+    width: 100%;
+    transition: 0.2s;
+}
