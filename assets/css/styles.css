@@ -1,17 +1,22 @@
+
+
+
 body{
     padding:0;
     margin: 0;
+    color: #EAEAEA;
+    background-color: #050404;
+    /* font-family: Kameron; */
 }
 
-main{
-    max-width: 70%;
-    margin: auto;
+a {
+    color: #EAEAEA;
 }
 
 .nav{
     width:100%;
     top:0;
-    background-color: lavender;
+    background-color: #893168;
     position: sticky;
     z-index: 100;
     border-bottom: 1px white solid;
@@ -27,16 +32,16 @@ main{
 }
 
 .nav ul li:hover{
-    background-color: purple;
+    background-color: #2E1C2B;
 }
 
 .nav ul li:hover a{
-    color: black;
+    
 }
 
 .nav ul li a{
     text-decoration: none;
-    color:purple;
+    
 }
 
 .nav ul{
@@ -49,7 +54,7 @@ main{
 
 .subnav{
     display: none;
-    background-color: lavender;
+    background-color: #4A1942;
     top:100%;
     position: absolute;
     width: auto;
@@ -75,13 +80,22 @@ ul li{
 }
 
 .nav .subnav ul li a{
-    color:black;
+    
 }
 
 .subnav ul li:hover{
-    background-color: purple;
+    background-color: #2E1C2B;
 }
 
 .subnav ul li{
     width: 100%;
+}
+
+main{
+    max-width: 70%;
+    margin: auto;
+}
+
+#homeGrid {
+    
 }
