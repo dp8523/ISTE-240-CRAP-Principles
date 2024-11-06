@@ -1,0 +1,126 @@
+body{
+    padding:0;
+    margin: 0;
+    color: #EAEAEA;
+    background-color: #050404;
+    font-family: Kameron, Georgia, 'Times New Roman', Times, serif;
+    font-size: 20px;
+}
+
+a {
+    color: #EAEAEA;
+}
+
+.nav {
+    width:100%;
+    top:0;
+    background-color: #893168;
+    position: sticky;
+    z-index: 100;
+    border-bottom: 1px white solid;
+    font-family: Goldman, sans-serif;
+}
+
+.nav ul li {
+    text-align: center;
+    list-style-type: none;
+    width: 20%; 
+    padding-top: 30px;
+    padding-bottom: 30px;
+    font-size: 18pt;
+}
+
+.nav ul li:hover {
+    background-color: #2E1C2B;
+}
+
+.nav ul li:hover a {
+    
+}
+
+.nav ul li a {
+    text-decoration: none;
+    
+}
+
+.nav ul {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+}
+
+.subnav {
+    display: none;
+    background-color: #4A1942;
+    top:100%;
+    position: absolute;
+    width: auto;
+    width: 100%;
+    z-index: 1;
+}
+
+.subnav ul {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+}
+
+ul li:hover .subnav {
+    display: block;
+}
+
+ul li {
+    position: relative;
+}
+
+.nav .subnav ul li a {
+    
+}
+
+.subnav ul li:hover {
+    background-color: #2E1C2B;
+}
+
+.subnav ul li {
+    width: 100%;
+}
+
+h1 {
+    font-size: 3em;
+}
+
+h1, h2, h3 {
+    font-family: Goldman, sans-serif;
+}
+
+main {
+    max-width: 70%;
+    margin: auto;
+}
+
+section {
+    background-color: #4A1942;
+}
+
+#homeGrid {
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    column-gap: 50px;
+}
+
+#homeGrid h2 {
+    background-color: #4A1942;
+    display: grid;
+    place-items: center;
+    padding: 10px;
+}
+
+#homeGrid p {
+    background-color: #4A1942;
+    padding: 10px;
+}
