@@ -124,3 +124,16 @@ section {
     background-color: #4A1942;
     padding: 10px;
 }
+
+.footer {
+    background-color: #893168;
+    text-align: center;
+    padding: 10px;
+}
+
+.crapCatsFooter {
+    align-items: center;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
