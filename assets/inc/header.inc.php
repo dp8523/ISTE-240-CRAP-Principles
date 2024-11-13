@@ -115,4 +115,3 @@
         
         <main>
             <h1><?php echo $pageTitle?></h1>
-            <p><?php echo $_SERVER['REQUEST_URI']?></p>
