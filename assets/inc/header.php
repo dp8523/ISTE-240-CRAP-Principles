@@ -3,7 +3,7 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link href="../../assets/css/styles.css" rel="stylesheet">
+        <link href="assets/css/styles.css" rel="stylesheet">
         <style>
             @import url('https://fonts.googleapis.com/css2?family=Kameron:wght@400..700&display=swap');
             @import url('https://fonts.googleapis.com/css2?family=Goldman:wght@400;700&family=Kameron:wght@400..700&display=swap');
