@@ -7,7 +7,7 @@ body{
     color: #EAEAEA;
     background-color: #050404;
     font-family: Kameron, Georgia, 'Times New Roman', Times, serif;
-    font-size: 20px;
+    font-size: 25px;
 }
 
 a {
@@ -129,4 +129,24 @@ section {
 #homeGrid p {
     background-color: #4A1942;
     padding: 10px;
+}
+
+.imgCenter{
+    display: block;
+    margin: auto;
+    width: 50%;
+}
+
+.imgCenter img{
+    width: 100%;
+}
+
+.tightText{
+    max-width: 60%;
+    margin: auto;
+}
+
+.pageTitle{
+    margin-top: 25px;
+    text-align: center;
 }
