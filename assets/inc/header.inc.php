@@ -1,36 +1,3 @@
-<?php
-    $location = 'index';
-
-    if(function_exists('str_contains')){
-        if (str_contains($_SERVER['REQUEST_URI'], 'contrast')){
-            $location = 'contrast';
-        }
-        if (str_contains($_SERVER['REQUEST_URI'], 'repetition')){
-        $location = 'repetition';
-        }
-        if (str_contains($_SERVER['REQUEST_URI'], 'alignment')){
-            $location = 'alignment';
-        }
-        if (str_contains($_SERVER['REQUEST_URI'], 'proximity')){
-            $location = 'proximity';
-        }
-    } else {
-        if(strpos($_SERVER['REQUEST_URI'], 'contrast') != false){
-            $location = 'contrast';
-        }
-        if(strpos($_SERVER['REQUEST_URI'], 'repetition') != false){
-            $location = 'repetition';
-        }
-        if(strpos($_SERVER['REQUEST_URI'], 'alignment') != false){
-            $location = 'alignment';
-        }
-        if(strpos($_SERVER['REQUEST_URI'], 'proximity') != false){
-            $location = 'proximity';
-        }
-    }
-    
-?>
-
 <!DOCTYPE html>
 <html lang="en">
     <head>
@@ -114,4 +81,6 @@
         </div>
         
         <main>
+        <div class="pageTitle">
             <h1><?php echo $pageTitle?></h1>
+        </div>
