@@ -7,7 +7,7 @@
 
 <div class="tightText">
 <p>
-When designing a webpage a key factor people should consider is Hick’s Law.
+When designing a webpage a key factor people should consider is Hick's Law.
 In short it states that it is inherently better to have only the key essential elements as it makes navigation easier
 for the user and be more aesthetically pleasing. 
 When it comes to a clean design simplicity is key as many sites often suffer from clutter making it hard to 
