@@ -19,7 +19,7 @@
     <body>
         <div class="nav">
             <ul>
-                <li class="active"><a href=<?php echo $path . "index.html";?>>Home</a></li>
+                <li class="active"><a href=<?php echo $path . "index.php";?>>Home</a></li>
                 <li><a href=<?php echo $path . "contrast/contrast.php";?>>Contrast</a>
                     <div class="subnav">
                         <ul>
