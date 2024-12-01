@@ -26,8 +26,10 @@ For example, news websites will often make their front page covered in staggered
 </div>
 
 <div class="imgCenter">
-    <img src="../../assets/images/card2.jpg" alt="Card Design 2 (Source: uxpin)">
+    <img src="../../assets/images/card2.png" alt="Card Design 2 (Source: uxpin)">
 </div>
+
+<br>
 
 <!-- Card Examples Here Not using images-->
 <div class="cards">
