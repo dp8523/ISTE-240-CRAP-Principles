@@ -1,5 +1,5 @@
 <?php
-    $location = 'index';
+    
     
 ?>
 
@@ -8,10 +8,10 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link href="../../assets/css/styles.css" rel="stylesheet">
+        <link href=<?php echo $path . "assets/css/styles.css";?> rel="stylesheet">
 
         <?php 
-            $title = "CRAP Principles - " . $pageTitle;
+            $title = "C.R.A.P. Principles - " . $pageTitle;
         ?>
 
         <title><?php echo $title?></title>
@@ -19,35 +19,35 @@
     <body>
         <div class="nav">
             <ul>
-                <li class="active"><a href="../../index.html">Home</a></li>
-                <li><a href="../contrast/contrast.php">Contrast</a>
+                <li class="active"><a href=<?php echo $path . "index.php";?>>Home</a></li>
+                <li><a href=<?php echo $path . "contrast/contrast.php";?>>Contrast</a>
                     <div class="subnav">
                         <ul>
-                            <li><a href="../contrast/color.php">Color and Texture</a></li>
+                            <li><a href=<?php echo $path . "contrast/color.php";?>>Color and Texture</a></li>
                         </ul>
                     </div>
                 </li>
-                <li><a href="../repetition/repetition.php">Repetition</a>
+                <li><a href=<?php echo $path . "repetition/repetition.php";?>>Repetition</a>
                     <div class="subnav">
                         <ul>
-                            <li><a href="../repetition/connectedness.php">Uniform Connectedness</a></li>
-                            <li><a href="../repetition/typography.php">Typography</a></li>
-                            <li><a href="../repetition/movement.php">Movement</a></li>
+                            <li><a href=<?php echo $path . "repetition/connectedness.php";?>>Uniform Connectedness</a></li>
+                            <li><a href=<?php echo $path . "repetition/typography.php";?>>Typography</a></li>
+                            <li><a href=<?php echo $path . "repetition/movement.php";?>>Movement</a></li>
                         </ul>
                     </div>
                 </li>
-                <li><a href="../alignment/alignment.php">Alignment</a>
+                <li><a href=<?php echo $path . "alignment/alignment.php";?>>Alignment</a>
                     <div class="subnav">
                         <ul>
-                            <li><a href="../alignment/whitespace.php">White Space</a></li>
+                            <li><a href=<?php echo $path . "alignment/whitespace.php";?>>White Space</a></li>
                         </ul>
                     </div>
                 </li>
-                <li><a href="../proximity/proximity.php">Proximity</a>
+                <li><a href=<?php echo $path . "proximity/proximity.php";?>>Proximity</a>
                     <div class="subnav">
                         <ul>
-                            <li><a href="../proximity/card_design.php">Card Design</a></li>
-                            <li><a href="../proximity/hicks_law.php">Hick's Law</a></li>
+                            <li><a href=<?php echo $path . "proximity/card_design.php";?>>Card Design</a></li>
+                            <li><a href=<?php echo $path . "proximity/hicks_law.php";?>>Hick's Law</a></li>
                         </ul>
                     </div>
                 </li>
