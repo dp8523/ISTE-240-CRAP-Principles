@@ -55,5 +55,5 @@
 </div>
 
 <?php 
-    require_once("assets/inc/footer.inc.php");
+    require_once("assets/inc/footer.php");
 ?>
