@@ -1,6 +1,8 @@
 <?php 
-    $pageTitle = "Repetition";
-    require_once('../../assets/inc/header.inc.php');
+    $title = "C.R.A.P. Principles";
+    $path = "";
+
+    require_once("assets/inc/header.inc.php");
 ?>
 
 <h1>What is C.R.A.P.?</h1>
@@ -53,5 +55,5 @@
 </div>
 
 <?php 
-    require_once('../../assets/inc/footer.inc.php');
+    require_once("assets/inc/footer.inc.php");
 ?>

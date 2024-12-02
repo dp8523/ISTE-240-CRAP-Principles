@@ -1,12 +1,12 @@
 <?php
-    $title = 'Contrast';
+    $title = "Contrast";
     $path = "../../";
 
-    require_once('../../assets/inc/header.php');
+    require_once('../../assets/inc/header.inc.php');
 ?>
 
 <p>Information here</p>
 
 <?php
-    require_once("../../assets/inc/footer.php");
+    require_once("../../assets/inc/footer.inc.php");
 ?>
