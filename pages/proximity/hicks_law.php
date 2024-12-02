@@ -1,13 +1,15 @@
 <?php
     $title = 'Hicks Law';
-    $pageTitle = 'Hicks Law';
 
-    require_once('../../assets/inc/header.inc.php');
+    require_once('../../assets/inc/header.php');
 ?>
+<div class="pageTitle">
+    <h1>Hicks Law</h1>
+</div>
 
 <div class="tightText">
 <p>
-When designing a webpage a key factor people should consider is Hick's Law.
+When designing a webpage a key factor people should consider is Hick’s Law.
 In short it states that it is inherently better to have only the key essential elements as it makes navigation easier
 for the user and be more aesthetically pleasing. 
 When it comes to a clean design simplicity is key as many sites often suffer from clutter making it hard to 
@@ -43,5 +45,5 @@ It makes content easier to understand and it also allows for more space to place
 
 
 <?php
-    require_once("../../assets/inc/footer.inc.php");
+    require_once("../../assets/inc/footer.php");
 ?>
