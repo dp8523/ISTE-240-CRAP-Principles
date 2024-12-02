@@ -1,5 +1,7 @@
 <?php 
-    $pageTitle = "Typography";
+    $title = "Typography";
+    $path = "../../";
+
     require_once('../../assets/inc/header.inc.php');
 ?>
 

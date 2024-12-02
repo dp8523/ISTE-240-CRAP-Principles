@@ -1,5 +1,7 @@
 <?php 
-    $pageTitle = "Repetition";
+    $title = "Repetition";
+    $path = "../../";
+
     require_once('../../assets/inc/header.inc.php');
 ?>
 
