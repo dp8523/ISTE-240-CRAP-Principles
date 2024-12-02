@@ -247,3 +247,57 @@ section {
 }
 
 /* Interactive Window End */
+
+
+/* Repetition examples */
+#rep_examples{
+    display: flex;
+    color: #050404;
+}
+
+#rep_examples h1, #rep_examples h2, #rep_examples p {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#rep_examples h1 {
+    font-size: 2rem;
+    border-bottom: 2px solid #2E1C2B;
+}
+
+#rep_examples h2 {
+    font-size: 1rem;
+    margin: 0.5rem 1rem;
+}
+
+#rep_examples p {
+    font-size: 0.5rem;
+    max-width: 70%;
+    margin: auto 2rem;
+}
+
+.rep_ex, #rep_examples section {
+    margin: 1rem;
+    padding: 0.5rem;
+    background-color: #EAEAEA;
+}
+
+#wrong_1 {
+    text-align: right;
+}
+#wrong_1 p{
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#wrong_2 {
+    text-align: center;
+    color: #893168;
+}
+#wrong_2 h2 {
+    margin: .75rem;
+}
+#wrong_2 p{
+    text-align: left;
+    color: #050404;
+}
+/* End of repetition examples */
