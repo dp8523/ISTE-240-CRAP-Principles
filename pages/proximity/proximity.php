@@ -16,7 +16,6 @@ Proximity is used a lot on Canva's website. Proximity helps to create hierarchy 
 </p>
 </div>
 
-<!-- Image of Canva's website -->
 <div class="imgCenter">
     <img src="../../assets/images/canva_proximity.png" alt="Canva's website">
 </div>
@@ -28,19 +27,20 @@ Proximity is in some ways a lot like alignment. They both help to establish hier
 </div>
 
 <div class="imgCenter">
-    <img src="../../assets/images/proximity2.jpg" alt="Proximity example">
+    <img src="../../assets/images/3column_prox.png" alt="Proximity example">
 </div>
 
 <br>
 
-<!-- Different example of proximity -->
 <div class="tightText">
 <p>
 In this section there are 2 images with text beneath them. The major distance is the space between them. If you were able to scroll on the page, when you scroll down you would not be able to tell if the text on the right is there for the image or if it is there for the text below. Proximity is very important because if you want similar or dependent pieces of information, you need them to be clustered together so that people can easily put together the information you are trying to communicate.
 </p>
 </div>
 
-<!-- CSS & html of prox-->
+<div class="imgCenter">
+    <img src="../../assets/images/prox.png" alt="Proximity example">
+</div>
 
 <?php
     require_once("../../assets/inc/footer.php");

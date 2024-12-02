@@ -32,38 +32,40 @@ For example, news websites will often make their front page covered in staggered
 
 <br>
 
-<!-- Card Examples Here Not using images-->
 <div class="cards">
-    <!-- Image-heavy card -->
     <div class="card">
-        <img src="path/to/image1.jpg" alt="Beautiful Beach" class="card-img">
+        <img src="../../assets/images/corp1_prox.jpg" alt="Main Male Corp User" class="card-img">
         <div class="card-content">
-            <h2>Explore the Tropics</h2>
-            <p>Discover pristine beaches and lush forests for your next adventure.</p>
+            <h2>CEO User 1</h2>
+            <p>This could be a basic discription of one of our CRAP users.</p>
         </div>
     </div>
 
-    <!-- Headline-focused card -->
     <div class="card">
         <div class="card-content">
             <h2>Breaking News</h2>
-            <p>Stay updated with the latest developments around the world.</p>
+            <p>
+                Stay updated with the latest developments around the world and with our company with our news section.
+                (More info) Is usually a link to a page with more information. When you click on the card it will take you to the page.
+                The link below just takes u back to the home page.
+                <br><br>
+                <a href="../../index.php">Home</a>
+            </p>
         </div>
     </div>
 
-    <!-- Balanced card -->
     <div class="card">
-        <img src="path/to/image2.jpg" alt="City Skyline" class="card-img">
+        <img src="../../assets/images/corp2_prox.jpg" alt="Woman Corp Image" class="card-img">
         <div class="card-content">
-            <h2>City Life Awaits</h2>
-            <p>Experience the vibrant culture and buzzing nightlife of urban centers.</p>
+            <h2>Corp User 2</h2>
+            <p>This could be a basic discription of one of our CRAP users.</p>
         </div>
     </div>
 </div>
 
 <div class="tightText">
 <p>
-The card on the left uses a headline to draw the users attention with a small image. Meanwhile the card on the left side is mostly an image which draws the users attention with visuals. Both of these are useful but are used in different ways. 
+The card on the left uses a headline to draw the users attention with a image. Meanwhile the card on the left side is mostly an image which draws the users attention with visuals and some small text. Both of these are useful but are used in different ways. 
 </p>
 </div>
 
