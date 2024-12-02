@@ -1,5 +1,7 @@
 <?php 
     $pageTitle = "Repetition";
+    $path = "../../";
+    
     require_once('../../assets/inc/header.inc.php');
 ?>
     <div class="imgCenter">
