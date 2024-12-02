@@ -1,10 +1,10 @@
 <?php
-include 'config.php';
-include 'header.php';
-include 'functions.php';
+    $title = "White Space";
+    $path = "../../";
 
-$pageTitle = 'White Space';
+    require_once($path . 'assets/inc/header.inc.php');
 ?>
+
 <main>
     <h1>White Space</h1>
     <div class="example">
@@ -42,4 +42,7 @@ $pageTitle = 'White Space';
         </p>
     </div>
 </main>
-<?php include 'footer.php'; ?>
+
+<?php
+    require_once($path . 'assets/inc/footer.inc.php');
+?>

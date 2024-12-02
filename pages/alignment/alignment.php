@@ -1,10 +1,10 @@
 <?php
-include 'config.php';
-include 'header.php';
-include 'functions.php';
+    $title = "Alignment";
+    $path = "../../";
 
-$pageTitle = 'Alignment';
+    require_once($path . 'assets/inc/header.inc.php');
 ?>
+
 <main>
     <h1>Alignment</h1>
     <div class="example">
@@ -41,4 +41,7 @@ $pageTitle = 'Alignment';
         </p>
     </div>
 </main>
-<?php include 'footer.php'; ?>
+
+<?php
+    require_once($path . 'assets/inc/footer.inc.php'); // Include updated footer
+?>
