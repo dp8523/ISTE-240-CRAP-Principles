@@ -18,7 +18,7 @@ Proximity is used a lot on Canva's website. Proximity helps to create hierarchy 
 
 <!-- Image of Canva's website -->
 <div class="imgCenter">
-    <img src="../../assets/images/proximity1.jpg" alt="Canva's website">
+    <img src="../../assets/images/canva_proximity.png" alt="Canva's website">
 </div>
 
 <div class="tightText">
