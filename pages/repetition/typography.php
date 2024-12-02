@@ -4,7 +4,9 @@
 
     require_once('../../assets/inc/header.inc.php');
 ?>
-
+    <div class="pageTitle">
+        <h1>Typography</h1>
+    </div>
     <div class="imgCenter">
         <img class="imgCenter" src="../../assets/images/typographySerifs.png" alt="The full 26 letter alphabet, upper and lowercase, with numbers 1-9 all in a serif font.">
     </div>
@@ -77,5 +79,5 @@
 
 
 <?php 
-    require_once('../../assets/inc/footer.inc.php');
+    require_once('../../assets/inc/footer.php');
 ?>

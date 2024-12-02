@@ -4,6 +4,9 @@
 
     require_once('../../assets/inc/header.inc.php');
 ?>
+    <div class="pageTitle">
+        <h1>Repetition</h1>
+    </div>
     <div class="imgCenter">
         <img src="../../assets/images/repetitionImage1.png" alt="An image of Harvard Business Reviews Homepage">  
     </div>
@@ -35,6 +38,53 @@
             They upkeep this style across their browser and tools such as Drive, Slides, Docs, and more.
         </p>
     </div>
+
+    <div id=rep_examples>
+        <div id=rep_example_left class=rep_ex>
+            <div class="pageTitle">
+                <h1>Repetition</h1>
+            </div>
+            <section>
+                <h2>Section 1</h2>
+                <p>
+                    On Harvard Business Review's website they utilize the concept of repetition by using the same text sizes for article names,
+                    maintaining a nav bar across every page,
+                    and maintaining the same visual style.
+                </p>
+            </section>
+
+            <section>
+                <h2>Section 2</h2>
+                <p>
+                    By maintaining the same style they can more easily distinguish their news source from others.
+                    The logo always remains in the top left corner and the article titles use the same font across pages to keep the reader familiar with the content they are viewing.
+                    Repetition is really important because if the pages with the articles looked completely different readers would have more trouble following the content.
+                </p>
+            </section>
+            
+        </div>
+        <div id=rep_example_right class=rep_ex>
+                <h1>Repetition</h1>
+            <section id=wrong_1>
+                <h2>Section 1</h2>
+                <p>
+                    On Harvard Business Review's website they utilize the concept of repetition by using the same text sizes for article names,
+                    maintaining a nav bar across every page,
+                    and maintaining the same visual style.
+                </p>
+            </section>
+
+            <section id=wrong_2>
+                <h2>Section 2</h2>
+                <p>
+                    By maintaining the same style they can more easily distinguish their news source from others.
+                    The logo always remains in the top left corner and the article titles use the same font across pages to keep the reader familiar with the content they are viewing.
+                    Repetition is really important because if the pages with the articles looked completely different readers would have more trouble following the content.
+                </p>
+            </section>
+            
+        </div>
+    </div>
     
     <div class="tightText">
         <p>
@@ -51,5 +101,5 @@
     
 
 <?php 
-    require_once('../../assets/inc/footer.inc.php');
+    require_once('../../assets/inc/footer.php');
 ?>
