@@ -2,6 +2,7 @@
     $title = "White Space";
     $path = "../../";
 
+    require_once('functions.php');
     require_once($path . 'assets/inc/header.inc.php');
 ?>
 
@@ -44,5 +45,5 @@
 </main>
 
 <?php
-    require_once($path . 'assets/inc/footer.inc.php');
+    require_once($path . 'assets/inc/footer.php');
 ?>

@@ -2,6 +2,7 @@
     $title = "Alignment";
     $path = "../../";
 
+    require_once('functions.php');
     require_once($path . 'assets/inc/header.inc.php');
 ?>
 
@@ -43,5 +44,5 @@
 </main>
 
 <?php
-    require_once($path . 'assets/inc/footer.inc.php'); // Include updated footer
+    require_once($path . 'assets/inc/footer.php'); // Include updated footer
 ?>
