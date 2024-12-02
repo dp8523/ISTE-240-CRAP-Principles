@@ -49,6 +49,21 @@
     </p>
 </div>
 
+<h2>Try It Here!</h2>
+<p>
+    The text box below will apply any entered CSS rules to the space to the right. <br><br>
+    Try setting "background-color" to "blue". The text will be hard to read due to lack of contrast
+    with the background. Now set "background-color to white". The text will stand out even more than before! <br><br>
+    Tinker with the other rules to make the text stand out even more!
+</p>
+
+<div id="contrastInteractive" class="interactive">
+    <textarea name="cssInput" id="cssInput">color: darkblue;&#13;background-color: teal;&#13;font-size: 30px;&#13;font-weight: 900;</textarea>
+    <div id="contrastExample" class="stylizedSpace">
+        Contrast
+    </div>
+</div>
+
 <?php
     require_once("../../assets/inc/footer.inc.php");
 ?>
