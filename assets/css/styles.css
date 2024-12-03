@@ -105,19 +105,15 @@ h1, h2, h3 {
 }
 
 main {
-    max-width: 70%;
+    max-width: 90%;
     margin: auto;
 }
 
-section {
-    background-color: #4A1942;
+p {
+    margin-bottom: 75px;
 }
 
-#homeGrid { /* Homepage text block arrangement */
-    display: grid;
-    grid-template-columns: 1fr 3fr;
-    column-gap: 50px;
-}
+/* Homepage text block arrangement */
 
 #homeGrid h2 {
     background-color: #4A1942;
@@ -131,32 +127,29 @@ section {
     padding: 10px;
 }
 
+/* End of Homepage */
+
 .imgCenter {
     display: block;
     margin: auto;
-    width: 50%;
+
 }
 
-.imgCenter img{
+.imgCenter img {
     width: 100%;
 }
 
 .bigImgCenter {
     display: block;
     margin: auto;
-    width: 90%;
+
 }
 
 .bigImgCenter img {
     width: 100%;
 }
 
-.tightText{
-    max-width: 60%;
-    margin: auto;
-}
-
-.pageTitle{
+.pageTitle {
     margin-top: 25px;
     text-align: center;
 }
@@ -302,3 +295,32 @@ section {
     color: #050404;
 }
 /* End of repetition examples */
+
+@media screen and (min-width: 600px) {
+    .imgCenter {
+        width: 60%;
+    }
+
+    .bigImgCenter {
+        width: 95%;
+    }
+
+    .tightText {
+        max-width: 70%;
+        margin: auto;
+    }
+}
+
+@media screen and (min-width: 900px) {
+    #homeGrid {
+        display: grid;
+        grid-template-columns: 1fr 3fr;
+        column-gap: 50px;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    main {
+        max-width: 80%;
+    }
+}
