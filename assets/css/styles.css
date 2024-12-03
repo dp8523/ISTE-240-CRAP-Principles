@@ -205,6 +205,10 @@ p {
     color: #555;
 }
 
+.imgVertical{
+    height:500px;
+    width: auto;
+}
 /* Interactive Window Start */
 
 .interactive {

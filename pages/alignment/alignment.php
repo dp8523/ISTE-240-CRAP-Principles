@@ -26,7 +26,8 @@
         );
         ?>
     </section>
-        <img class="imgCenter" src="<?php echo $path; ?>assets/images/alignment_good1.jpg" alt="Centered Alignment Example">
+    
+        <img class="imgVertical" src="<?php echo $path; ?>assets/images/alignment_good1.jpg" alt="Centered Alignment Example">
 
     <section>
         <?php
