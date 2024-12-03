@@ -37,7 +37,7 @@
         );
         ?>
     </section>
-        <img class="imgCenter" src="<?php echo $path; ?>assets/images/alignment_good2.jpg" alt="Left Alignment Example">
+        <img class="imgVertical" src="<?php echo $path; ?>assets/images/alignment_good2.jpg" alt="Left Alignment Example">
     </div>
     
     <div class="example">
@@ -50,7 +50,9 @@
             );
             ?>
         </section>
-        <img class="imgCenter" src="<?php echo $path; ?>assets/images/alignment_bad1.jpg" alt="Disorganized Content Example">
+        <div class="imgCenter">
+            <img src="<?php echo $path; ?>assets/images/alignment_bad1.jpg" alt="Disorganized Content Example">
+        </div>
         <section>
 
             <?php
@@ -60,7 +62,10 @@
             );
             ?>
         </section>
-        <img class="imgCenter" src="<?php echo $path; ?>assets/images/alignment_bad2.jpg" alt="Inconsistent Spacing Example">
+        <div class="imgCenter">
+            <img src="<?php echo $path; ?>assets/images/alignment_bad2.jpg" alt="Inconsistent Spacing Example">
+        </div>
+        
     </div>
 
     <div class="example">
