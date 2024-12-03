@@ -113,11 +113,7 @@ section {
     background-color: #4A1942;
 }
 
-#homeGrid { /* Homepage text block arrangement */
-    display: grid;
-    grid-template-columns: 1fr 3fr;
-    column-gap: 50px;
-}
+/* Homepage text block arrangement */
 
 #homeGrid h2 {
     background-color: #4A1942;
@@ -130,6 +126,16 @@ section {
     background-color: #4A1942;
     padding: 10px;
 }
+
+@media screen and (min-width: 900px) {
+    #homeGrid {
+        display: grid;
+        grid-template-columns: 1fr 3fr;
+        column-gap: 50px;
+    }
+}
+
+/* End of Homepage */
 
 .imgCenter {
     display: block;
