@@ -113,7 +113,7 @@ section {
     background-color: #4A1942;
 }
 
-#homeGrid {
+#homeGrid { /* Homepage text block arrangement */
     display: grid;
     grid-template-columns: 1fr 3fr;
     column-gap: 50px;
@@ -131,13 +131,23 @@ section {
     padding: 10px;
 }
 
-.imgCenter{
+.imgCenter {
     display: block;
     margin: auto;
     width: 50%;
 }
 
 .imgCenter img{
+    width: 100%;
+}
+
+.bigImgCenter {
+    display: block;
+    margin: auto;
+    width: 90%;
+}
+
+.bigImgCenter img {
     width: 100%;
 }
 
@@ -201,6 +211,43 @@ section {
     font-size: 1rem;
     color: #555;
 }
+
+/* Interactive Window Start */
+
+.interactive {
+    margin: auto;
+    display: flex;
+}
+
+#cssInput {
+    width: 50%;
+    height: 100%;
+    font-size: 20px;
+    resize: none;
+}
+
+.stylizedSpace {
+    width: 50%;
+}
+
+#contrastInteractive {
+    height: 300px;;
+}
+
+#contrastExample {
+    text-align: center;
+    padding: 100px 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    overflow: hidden;
+
+    /* Default values that are visible in the textarea for users to alter */
+    color: darkblue;
+    background-color: teal;
+    font-size: 30px;
+    font-weight: 900;
+}
+
+/* Interactive Window End */
 
 
 /* Repetition examples */

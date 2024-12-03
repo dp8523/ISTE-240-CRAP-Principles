@@ -4,7 +4,7 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link href=<?php echo $path . "assets/css/styles.css";?> rel="stylesheet">
-
+        <script src="../../assets/javascript/script.js" defer></script>
         <title><?php echo $title?></title>
     </head>
     <body>
