@@ -167,7 +167,11 @@ p {
 .crapCatsFooter {
     padding: 10px;
     text-align: center;
-    font-family: Goldman, sans-serif
+    font-family: Goldman, sans-serif;
+}
+
+.crapCatsFooter p {
+    margin-bottom: 0;
 }
 
 .cards {
