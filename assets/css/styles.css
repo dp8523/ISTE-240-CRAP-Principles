@@ -209,10 +209,13 @@ p {
     color: #555;
 }
 
-.imgVertical{
-    height:500px;
+.imgVertical {
+    height: 500px;
     width: auto;
+    display: block;
+    margin: auto;
 }
+
 /* Interactive Window Start */
 
 .interactive {
@@ -315,7 +318,6 @@ p {
     text-align: center;
     padding: 15px;
     cursor: pointer;
-    position: sticky;
     top: 0;
     z-index: 100;
 }
