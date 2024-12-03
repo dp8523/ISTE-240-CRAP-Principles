@@ -20,19 +20,45 @@
         <h2>Examples of Effective Use of White Space</h2>
         <section>
             <?php
-            renderExample('Ample Spacing Between Text and Images', 'This example demonstrates how separating text from images with white space creates a more organized and balanced layout.');
-            renderExample('Margin and Padding Around Content Blocks', 'By adding margins and padding, content blocks are more visually distinct, improving readability and making navigation easier.');
+            renderExample(
+                'Ample Spacing Between Text and Images',
+                'This example demonstrates how separating text from images with white space creates a more organized and balanced layout.'
+            );
             ?>
         </section>
+        <img class="imgCenter" src="<?php echo $path; ?>assets/images/whitespace_good1.jpg" alt="Ample Spacing Example">
+
+        <section>
+            <?php
+            renderExample(
+                'Margin and Padding Around Content Blocks',
+                'By adding margins and padding, content blocks are more visually distinct, improving readability and making navigation easier.'
+            );
+            ?>
+        </section>
+        <img class="imgCenter" src="<?php echo $path; ?>assets/images/whitespace_good2.jpg" alt="Margin and Padding Example">
     </div>
     <div class="example">
         <h2>Examples of Poor Use of White Space</h2>
         <section>
             <?php
-            renderExample('Text and Images Crowded Together', 'Without enough space between text and images, the design feels cramped and difficult to follow.');
-            renderExample('Overlapping or Cluttered Content Blocks', 'When content blocks lack adequate separation, the layout appears chaotic, reducing readability and user comfort.');
+            renderExample(
+                'Text and Images Crowded Together',
+                'Without enough space between text and images, the design feels cramped and difficult to follow.'
+            );
             ?>
         </section>
+        <img class="imgCenter" src="<?php echo $path; ?>assets/images/whitespace_bad1.jpg" alt="Crowded Content Example">
+
+        <section>
+            <?php
+            renderExample(
+                'Overlapping or Cluttered Content Blocks',
+                'When content blocks lack adequate separation, the layout appears chaotic, reducing readability and user comfort.'
+            );
+            ?>
+        </section>
+        <img class="imgCenter" src="<?php echo $path; ?>assets/images/whitespace_bad2.jpg" alt="Cluttered Content Example">
     </div>
     <div class="example">
         <h2>Why White Space Matters</h2>
