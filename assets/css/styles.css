@@ -317,7 +317,7 @@ p {
 }
 
 .menu-dropdown {
-    display: none; /* Initially hidden */
+    display: none; 
     background-color: #4A1942;
     text-align: center;
     padding: 0;
@@ -334,19 +334,19 @@ p {
     background-color: #2E1C2B;
 }
 
-/* Show the dropdown when toggled */
+
 .menu-dropdown.show {
     display: block;
 }
 
-/* Responsive Design */
+
 @media screen and (max-width: 768px) {
     .nav {
-        display: none; /* Hide desktop nav on mobile */
+        display: none; 
     }
 
     .menu {
-        display: block; /* Show mobile menu */
+        display: block;
     }
 }
 
