@@ -1,8 +1,8 @@
-let cssInputEle = document.getElementById("cssInput");
-cssInputEle.addEventListener("keyup", applyCss);
+document.addEventListener('DOMContentLoaded', function () {
+    const menuToggle = document.getElementById('menuToggle');
+    const menuDropdown = document.getElementById('menuDropdown');
 
-function applyCss(event) {
-    let input = event.target.value;
-    let stylizedSpace = event.target.nextElementSibling;
-    stylizedSpace.setAttribute("style", input);
-}
+    menuToggle.addEventListener('click', function () {
+        menuDropdown.classList.toggle('show');
+    });
+});
