@@ -1,13 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Kameron:wght@400..700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Goldman:wght@400;700&family=Kameron:wght@400..700&display=swap');
 
-body{
-    padding:0;
+body {
+    padding: 0;
     margin: 0;
     color: #EAEAEA;
     background-color: #050404;
     font-family: Kameron, Georgia, 'Times New Roman', Times, serif;
     font-size: 25px;
+    overflow-x: hidden; /* Prevent horizontal scrolling */
 }
 
 a {
@@ -15,36 +16,13 @@ a {
 }
 
 /* Navigation */
-
 .nav {
-    width:100%;
-    top:0;
+    width: 100%;
+    top: 0;
     background-color: #893168;
     position: sticky;
     z-index: 100;
     font-family: Goldman, sans-serif;
-}
-
-.nav ul li {
-    text-align: center;
-    list-style-type: none;
-    width: 20%; 
-    padding-top: 30px;
-    padding-bottom: 30px;
-    font-size: 18pt;
-}
-
-.nav ul li:hover {
-    background-color: #2E1C2B;
-}
-
-.nav ul li:hover a {
-    
-}
-
-.nav ul li a {
-    text-decoration: none;
-    
 }
 
 .nav ul {
@@ -55,47 +33,78 @@ a {
     margin: 0;
 }
 
-.subnav {
-    display: none;
-    background-color: #4A1942;
-    top:100%;
-    position: absolute;
-    width: auto;
-    width: 100%;
-    z-index: 1;
-}
-
-.subnav ul {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding: 0;
-    margin: 0;
+.nav ul li {
+    text-align: center;
     list-style-type: none;
+    width: 20%;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    font-size: 18pt;
 }
 
-ul li:hover .subnav {
-    display: block;
-}
-
-ul li {
-    position: relative;
-}
-
-.nav .subnav ul li a {
-    
-}
-
-.subnav ul li:hover {
+.nav ul li:hover {
     background-color: #2E1C2B;
 }
 
-.subnav ul li {
-    width: 100%;
+.nav ul li a {
+    text-decoration: none;
 }
 
-/* End of Navigation */
+/* Mobile Menu */
+.menu {
+    display: none; /* Hidden by default for desktop */
+    background-color: #893168;
+    color: #EAEAEA;
+    font-size: 20px;
+    font-family: Goldman, sans-serif;
+    text-align: center;
+    padding: 15px;
+    cursor: pointer;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+}
 
+.menu:hover {
+    background-color: #2E1C2B;
+}
+
+.menu-dropdown {
+    display: none;
+    background-color: #4A1942;
+    text-align: center;
+    padding: 0;
+}
+
+.menu-dropdown.show {
+    display: block; /* Show the dropdown when toggled */
+}
+
+.menu-dropdown a {
+    display: block;
+    padding: 10px;
+    text-decoration: none;
+    color: #EAEAEA;
+}
+
+.menu-dropdown a:hover {
+    background-color: #2E1C2B;
+}
+
+/* Responsive Design */
+@media screen and (max-width: 768px) {
+    .nav {
+        display: none; /* Hide desktop nav for mobile */
+    }
+
+    .menu {
+        display: block; /* Show menu for mobile */
+    }
+}
+
+/* End of Responsive Design */
+
+/* Existing Styles (unchanged) */
 h1 {
     font-size: 3em;
 }
@@ -113,7 +122,7 @@ section {
     background-color: #4A1942;
 }
 
-#homeGrid { /* Homepage text block arrangement */
+#homeGrid {
     display: grid;
     grid-template-columns: 1fr 3fr;
     column-gap: 50px;
@@ -137,7 +146,7 @@ section {
     width: 50%;
 }
 
-.imgCenter img{
+.imgCenter img {
     width: 100%;
 }
 
@@ -151,12 +160,12 @@ section {
     width: 100%;
 }
 
-.tightText{
+.tightText {
     max-width: 60%;
     margin: auto;
 }
 
-.pageTitle{
+.pageTitle {
     margin-top: 25px;
     text-align: center;
 }
@@ -174,7 +183,7 @@ section {
 .crapCatsFooter {
     padding: 10px;
     text-align: center;
-    font-family: Goldman, sans-serif
+    font-family: Goldman, sans-serif;
 }
 
 .cards {
@@ -213,7 +222,6 @@ section {
 }
 
 /* Interactive Window Start */
-
 .interactive {
     margin: auto;
     display: flex;
@@ -231,7 +239,7 @@ section {
 }
 
 #contrastInteractive {
-    height: 300px;;
+    height: 300px;
 }
 
 #contrastExample {
@@ -246,12 +254,10 @@ section {
     font-size: 30px;
     font-weight: 900;
 }
-
 /* Interactive Window End */
 
-
 /* Repetition examples */
-#rep_examples{
+#rep_examples {
     display: flex;
     color: #050404;
 }
@@ -285,7 +291,8 @@ section {
 #wrong_1 {
     text-align: right;
 }
-#wrong_1 p{
+
+#wrong_1 p {
     text-align: center;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
@@ -294,10 +301,12 @@ section {
     text-align: center;
     color: #893168;
 }
+
 #wrong_2 h2 {
     margin: .75rem;
 }
-#wrong_2 p{
+
+#wrong_2 p {
     text-align: left;
     color: #050404;
 }

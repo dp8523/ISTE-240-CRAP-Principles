@@ -6,3 +6,8 @@ function applyCss(event) {
     let stylizedSpace = event.target.nextElementSibling;
     stylizedSpace.setAttribute("style", input);
 }
+
+function toggleMenu() {
+    const menuDropdown = document.querySelector('.menu-dropdown');
+    menuDropdown.classList.toggle('show');
+}
