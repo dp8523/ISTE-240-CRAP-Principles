@@ -296,6 +296,61 @@ p {
 }
 /* End of repetition examples */
 
+
+/* Mobile Menu */
+.menu {
+    display: none; /* Hidden by default for desktops */
+    background-color: #893168;
+    color: #EAEAEA;
+    font-size: 20px;
+    font-family: Goldman, sans-serif;
+    text-align: center;
+    padding: 15px;
+    cursor: pointer;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+}
+
+.menu:hover {
+    background-color: #2E1C2B;
+}
+
+.menu-dropdown {
+    display: none; 
+    background-color: #4A1942;
+    text-align: center;
+    padding: 0;
+}
+
+.menu-dropdown a {
+    display: block;
+    padding: 10px;
+    text-decoration: none;
+    color: #EAEAEA;
+}
+
+.menu-dropdown a:hover {
+    background-color: #2E1C2B;
+}
+
+
+.menu-dropdown.show {
+    display: block;
+}
+
+
+@media screen and (max-width: 768px) {
+    .nav {
+        display: none; 
+    }
+
+    .menu {
+        display: block;
+    }
+}
+
+
 @media screen and (min-width: 600px) {
     .imgCenter {
         width: 60%;
