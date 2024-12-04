@@ -1,7 +1,7 @@
 <?php
     $title = 'Movement';
 
-    require_once('../../assets/inc/header.php');
+    require_once('../../assets/inc/header.inc.php');
 ?>
 
 <div class="pageTitle">

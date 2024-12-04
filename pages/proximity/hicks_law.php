@@ -1,7 +1,7 @@
 <?php
     $title = 'Hicks Law';
 
-    require_once('../../assets/inc/header.php');
+    require_once('../../assets/inc/header.inc.php');
 ?>
 <div class="pageTitle">
     <h1>Hicks Law</h1>
