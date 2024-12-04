@@ -1,6 +1,6 @@
 <?php
     $title = 'Connectedness';
-
+    $path = '../../';
     require_once('../../assets/inc/header.inc.php');
 ?>
 

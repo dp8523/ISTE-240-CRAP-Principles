@@ -1,6 +1,6 @@
 <?php
     $title = 'Movement';
-
+    $path = '../../';
     require_once('../../assets/inc/header.inc.php');
 ?>
 
